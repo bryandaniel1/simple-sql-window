@@ -2,7 +2,7 @@
 
 ## Program Description
 
-This Java Swing program allows the user to connect to a database and execute various queries. On startup, a setup window appears to collect connection properties for the database. Once tested, the connection properties are saved and used for queries ececuted from the query window. The simple program gives the user options to execute multiple queries at once, clear results, change database connection, and exit the program. The screenshots below show the program in action.
+This Java Swing program allows the user to connect to a database and execute various queries. On startup, a setup window appears to collect connection properties for the database. Once tested, the connection properties are saved and used for queries executed from the query window. The simple program gives the user options to execute multiple queries at once, clear results, change database connection, and exit the program. The screenshots below show the program in action.
 
 The database connection properties are collected in the setup window.
 
