@@ -31,6 +31,7 @@ import javax.swing.JTextArea;
 import javax.swing.SwingUtilities;
 
 /**
+ * This ActinListener handles the events of the QueryWindow object.
  *
  * @author Bryan Daniel
  */

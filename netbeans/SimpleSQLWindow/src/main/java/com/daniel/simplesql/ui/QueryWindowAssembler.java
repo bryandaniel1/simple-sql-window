@@ -476,7 +476,7 @@ public class QueryWindowAssembler implements WindowAssembler {
     private class QueryWindowButton extends JButton {
 
         /**
-         * Constants
+         * Serial version UID
          */
         private static final long serialVersionUID = 1L;
 

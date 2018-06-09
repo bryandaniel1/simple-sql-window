@@ -101,7 +101,7 @@ public class AnyQueryDataAccess {
             }
         } catch (SQLException e) {
             Logger.getLogger(AnyQueryDataAccess.class.getName()).log(Level.INFO,
-                    "Connection exception occurred during TestQueryDataAccess.connectionSuccessful.", e);
+                    "Connection exception occurred during AnyQueryDataAccess.executeStatement.", e);
             allResults.add(e.getMessage());
         } finally {
             DatabaseUtil.closeResultSet(resultSet);

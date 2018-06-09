@@ -80,7 +80,7 @@ public class TestQueryDataAccess {
                 testPasses = true;
             }
         } catch (SQLException ex) {
-            Logger.getLogger(TestQueryRunner.class.getName()).log(Level.INFO,
+            Logger.getLogger(TestQueryDataAccess.class.getName()).log(Level.INFO,
                     "Connection exception occurred during TestQueryDataAccess.connectionSuccessful.", ex);
         } finally {
             DatabaseUtil.closeResultSet(resultSet);
